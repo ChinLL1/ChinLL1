@@ -6,7 +6,7 @@
 <!-- ====================== TYPING INTRO ====================== -->
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=8B5CF6&center=true&vCenter=true&width=720&lines=Only+does+LeetCode+in+C%2B%2B;Once+forgot+to+terminate+an+EC2+instance;Fascinated+that+%5B%5D%28%29%7B%7D%28%29%3B+is+valid+code;Occasionally+ends+Python+lines+with+a+%3B)](https://github.com/ChinLL1)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=8B5CF6&center=true&vCenter=true&width=720&lines=Only+does+LeetCode+in+C%2B%2B;Once+forgot+to+terminate+an+EC2+instance;Fascinated+that+%5B%5D%28%29%7B%7D%28%29+is+valid+code;Occasionally+ends+Python+lines+with+a+semicolon)](https://github.com/ChinLL1)
 
 </div>
 
@@ -19,12 +19,13 @@
 using namespace std;
 
 struct LiLoong {
-    string university    = "Computer Science (Hons) @ NTU";
+    string degree = "Computer Science (Hons) @ NTU";
     int year = 3;
 
     vector<string> languages = { "C++", "Python", "C", "Java", "SQL" };
-    vector<string> learning = { "sim-to-real transfer", "multimodal LLMs", "reinforcement learning", "software architectures", "ML methodology" };
-    vector<string> doing     = { "Kaggle", "LeetCode", "Reading ML research papers" };
+    vector<string> learning = { "sim-to-real transfer", "multimodal LLMs",
+        "reinforcement learning", "software architectures", "ML methodology" };
+    vector<string> doing = { "Kaggle", "LeetCode", "Reading ML research papers" };
     const bool curious = true;
 
     string status() { return "open to internships & collaborations"; }
@@ -83,14 +84,6 @@ Year 3 Computer Science undergraduate at **NTU** specialising in Artificial Inte
 | **A\*STAR ARIA Research** · _ongoing_ | Research on multimodal LLMs and vision-language-action (VLA) models for robotic manipulation. | Python · PyTorch · NVIDIA Isaac Lab / Isaac Sim · cuRobo |
 | **Rubrix AI** · _Hackathon Semi-Finalist_ | Adaptive-learning platform that analyses documents to generate personalised feedback and adaptive exercises; pitched to a Senior Solutions Architect (AWS ASEAN Public Sector). | Node.js · Express · React · REST |
 | **Sift** | LLM-powered review spam & content filter — a hybrid TF-IDF + regex + LLM NLP pipeline classifying reviews as authentic / spam / inappropriate / sensitive, stress-tested on adversarial edge cases. | Python · scikit-learn · pandas · LLMs |
-
-<br/>
-
-<!-- ====================== HIGHLIGHTS ====================== -->
-## Highlights
-
-- **A\*STAR Research Internship Award (ARIA)** — ~60 awardees
-- **Rubrix AI** — Hackathon Semi-Finalist
 
 <br/>
 
