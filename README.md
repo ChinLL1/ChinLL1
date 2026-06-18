@@ -6,7 +6,7 @@
 <!-- ====================== TYPING INTRO ====================== -->
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=8B5CF6&center=true&vCenter=true&width=720&lines=Curious+by+default;Chasing+the+why+behind+the+what;Reading+papers%2C+shipping+code;From+first+principles%2C+always)](https://github.com/ChinLL1)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=8B5CF6&center=true&vCenter=true&width=720&lines=Only+does+LeetCode+in+C%2B%2B;Once+forgot+to+terminate+an+EC2+instance;Fascinated+that+%5B%5D%28%29%7B%7D%28%29%3B+is+valid+code;Occasionally+ends+Python+lines+with+a+%3B)](https://github.com/ChinLL1)
 
 </div>
 
@@ -31,7 +31,7 @@ struct LiLoong {
 };
 ``` 
 
-Year 3 Computer Science undergraduate at **NTU** specialising in Artificial Intelligence, and currently a research intern with **A\*STAR's ARIA** programme working on multimodal LLMs and vision-language-action models — broadly, **sim-to-real**: training in simulation and closing the gap to reality. I'm most curious about what happens beneath the models, and still building out the maths and statistics that go with it.
+Year 3 Computer Science undergraduate at **NTU** specialising in Artificial Intelligence, and currently a research intern with **A\*STAR's ARIA** programme working on multimodal LLMs and vision-language-action models, **sim-to-real**: training in simulation and closing the gap to reality. I'm most curious about what happens beneath the models, and still building out the maths and statistics that go with it.
 
 <br/>
 
