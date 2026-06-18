@@ -92,7 +92,7 @@ class ChinLiLoong:
 
 | Project | What it is | Stack |
 |---|---|---|
-| **Rubrix AI** · _Hackathon Semi-Finalist (Top 18/100)_ | Adaptive-learning platform that analyses documents to generate personalised feedback and adaptive exercises; pitched to a Senior Solutions Architect (AWS ASEAN Public Sector). | Node.js · Express · React · REST |
+| **Rubrix AI** · _Hackathon Semi-Finalist_ | Adaptive-learning platform that analyses documents to generate personalised feedback and adaptive exercises; pitched to a Senior Solutions Architect (AWS ASEAN Public Sector). | Node.js · Express · React · REST |
 | **Sift** | LLM-powered review spam & content filter — a hybrid TF-IDF + regex + LLM NLP pipeline classifying reviews as authentic / spam / inappropriate / sensitive, stress-tested on adversarial edge cases. | Python · scikit-learn · pandas · LLMs |
 | **A\*STAR ARIA Research** · _ongoing_ | Early-stage research on multimodal LLMs and Vision-Language-Action (VLA) models for robotic manipulation. | Python · PyTorch |
 
