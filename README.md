@@ -22,10 +22,10 @@ struct LiLoong {
     string degree = "Computer Science (Hons) @ NTU";
     int year = 3;
 
-    vector<string> languages = { "C++", "Python", "C", "Java", "SQL" };
+    vector<string> languages = { "C++", "Python", "C", "Java", "SQL", "TypeScript" };
     vector<string> learning = { "sim-to-real transfer", "multimodal LLMs",
         "reinforcement learning", "software architectures", "ML methodology" };
-    vector<string> doing = { "Kaggle", "LeetCode", "Reading ML research papers" };
+    vector<string> doing = { "Hackathons", "LeetCode", "Kaggle" };
     const bool curious = true;
 
     string status() { return "open to internships & collaborations"; }
@@ -63,7 +63,7 @@ Year 3 Computer Science undergraduate at **NTU** specialising in Artificial Inte
 ![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
-**Robotics / Tools**
+**Tools**
 
 ![NVIDIA Isaac](https://img.shields.io/badge/NVIDIA%20Isaac%20Sim-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white)
