@@ -22,17 +22,17 @@ struct LiLoong {
     string degree = "Computer Science (Hons) @ NTU";
     int year = 3;
 
-    vector<string> languages = { "C++", "Python", "C", "Java", "SQL", "TypeScript" };
-    vector<string> learning = { "sim-to-real transfer", "multimodal LLMs",
-        "reinforcement learning", "software architectures", "ML methodology" };
-    vector<string> doing = { "Hackathons", "LeetCode", "Kaggle" };
+    vector<string> languages = { "C++", "Python", "C", "Java", "SQL", "TypeScript", "R" };
+    vector<string> learning = { "ML systems & inference",
+        "sim-to-real transfer", "multimodal LLMs", "software architectures" };
+    vector<string> doing = { "interview prep :)", "LeetCode", "Kaggle" };
     const bool curious = true;
 
     string status() { return "open to internships & collaborations"; }
 };
-``` 
+```
 
-Year 3 Computer Science undergraduate at **NTU** specialising in Artificial Intelligence, and currently a research intern with **A\*STAR's ARIA** programme working on multimodal LLMs and vision-language-action models, **sim-to-real**: training in simulation and closing the gap to reality. I'm most curious about what happens beneath the models, and still building out the maths and statistics that go with it.
+Year 3 Computer Science undergraduate at **NTU** specialising in Artificial Intelligence, most recently a research intern with **A\*STAR's ARIA** programme working on multimodal LLMs, vision-language-action models, and **sim-to-real**: training in simulation and closing the gap to reality. I'm most curious about what happens beneath the models, the systems and hardware that make them run, and still building out the maths and statistics that go with it.
 
 <br/>
 
@@ -56,9 +56,12 @@ Year 3 Computer Science undergraduate at **NTU** specialising in Artificial Inte
 **ML / Data**
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Detectron2](https://img.shields.io/badge/Detectron2-1877F2?style=for-the-badge&logo=meta&logoColor=white)
+![YOLO](https://img.shields.io/badge/YOLOv8-111F68?style=for-the-badge&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?style=for-the-badge&logoColor=white)
 ![LightGBM](https://img.shields.io/badge/LightGBM-2EA44F?style=for-the-badge&logoColor=white)
+![CatBoost](https://img.shields.io/badge/CatBoost-FFCC00?style=for-the-badge&logoColor=black)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
@@ -66,6 +69,9 @@ Year 3 Computer Science undergraduate at **NTU** specialising in Artificial Inte
 **Tools**
 
 ![NVIDIA Isaac](https://img.shields.io/badge/NVIDIA%20Isaac%20Sim-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![cuRobo](https://img.shields.io/badge/cuRobo-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -81,9 +87,13 @@ Year 3 Computer Science undergraduate at **NTU** specialising in Artificial Inte
 
 | Project | What it is | Stack |
 |---|---|---|
-| **A\*STAR ARIA Research** · _ongoing_ | Research on multimodal LLMs and vision-language-action (VLA) models for robotic manipulation. | Python · PyTorch · NVIDIA Isaac Lab / Isaac Sim · cuRobo |
+| **A\*STAR ARIA Research** | Sim-to-real pipeline for vision-guided robotic grasping on an industrial arm: synthetic datasets generated from CAD inside GPU-parallel simulation, YOLOv8-pose and Mask R-CNN trained with zero hand-labelled images, then deployed for online inference in a closed-loop control system. | Python · PyTorch · Isaac Lab · cuRobo |
+| **DonateSG** | Donation-matching platform built as a team software engineering project, taken from requirements through to a deployed full-stack application. | TypeScript · React · Node.js |
 | **Rubrix AI** · _Hackathon Semi-Finalist_ | Adaptive-learning platform that analyses documents to generate personalised feedback and adaptive exercises; pitched to a Senior Solutions Architect (AWS ASEAN Public Sector). | Node.js · Express · React · REST |
-| **Sift** | LLM-powered review spam & content filter — a hybrid TF-IDF + regex + LLM NLP pipeline classifying reviews as authentic / spam / inappropriate / sensitive, stress-tested on adversarial edge cases. | Python · scikit-learn · pandas · LLMs |
+| **Kaggle Competition Portfolio** | End-to-end competition pipelines covering feature engineering, model selection and ensembling — gradient-boosted trees through to a GPU-trained PyTorch MLP and a stacked ensemble. | Python · PyTorch · XGBoost · LightGBM · CatBoost |
+| **F1 Race Predictor** | Predicts race finishing positions from qualifying data using a Gradient Boosting Regressor trained on the 2015–2024 seasons, with a FastF1 ingestion and caching pipeline serving a React frontend. | Python · scikit-learn · FastF1 · React · Vite |
+| **orderbook-cpp** | A limit order book and matching engine built from scratch: insert-first matching, price-time priority, and persistent order and trade state. Written deliberately with minimal AI assistance, to prove I could carry a C++ project end to end. | C++ · SQLite · CMake |
+| **Sift** | LLM-powered review spam and content filter: a hybrid TF-IDF + regex + LLM pipeline classifying reviews as authentic, spam, inappropriate or sensitive, stress-tested on adversarial edge cases. | Python · scikit-learn · pandas · LLMs |
 
 <br/>
 
