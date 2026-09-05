@@ -23,16 +23,15 @@ struct LiLoong {
     int year = 3;
 
     vector<string> languages = { "C++", "Python", "C", "Java", "SQL", "TypeScript", "R" };
-    vector<string> learning = { "ML systems & inference", "agent systems & guardrails",
-        "sim-to-real transfer", "multimodal LLMs", "software architectures" };
-    vector<string> doing = { "interview prep :)", "LeetCode", "Kaggle" };
+    vector<string> learning = { "ML Systems", "Software architecture", "C++ optimisation techniques" };
+    vector<string> doing = { "interview prep :)", "LeetCode", "bit of CodeForces" };
     const bool curious = true;
 
     string status() { return "open to internships & collaborations"; }
 };
 ```
 
-Year 3 Computer Science undergraduate at **NTU** specialising in Artificial Intelligence, most recently a research intern with **A\*STAR's ARIA** programme working on multimodal LLMs, vision-language-action models, and **sim-to-real**: training in simulation and closing the gap to reality. I'm most curious about what happens beneath the models, the systems and hardware that make them run, and still building out the maths and statistics that go with it.
+Year 3 Computer Science undergraduate at **NTU** specialising in Artificial Intelligence, currently exploring AI ML concepts by taking on projects to close knowledge gaps.
 
 <br/>
 
@@ -90,9 +89,9 @@ Year 3 Computer Science undergraduate at **NTU** specialising in Artificial Inte
 | Project | What it is | Stack |
 |---|---|---|
 | **Agent Guardrails for LLM-Driven Drone Operations** · _Garuda Robotics × NTU veNTUre_ | The agent-safety layer for an [MCP server](https://github.com/NNC21July/TeamOpusVENTURE) that lets drone pilots operate Garuda Plex services through natural language: permission levels, fail-closed tool access, human-in-the-loop approval for high-impact actions, and a structured audit trail of everything the agent proposes, is blocked from, or executes. Takeoff and airspace booking require a two-phase approval bound to a hash of the exact call parameters, closing the time-of-check/time-of-use gap. | Python · Model Context Protocol · pytest |
-| **A\*STAR ARIA Research** | Sim-to-real pipeline for vision-guided robotic grasping on an industrial arm: synthetic datasets generated from CAD inside GPU-parallel simulation, YOLOv8-pose and Mask R-CNN trained with zero hand-labelled images, then deployed for online inference in a closed-loop control system. | Python · PyTorch · Isaac Lab · cuRobo |
-| **orderbook-cpp** | A limit order book and matching engine built from scratch: insert-first matching, price-time priority, and persistent order and trade state. Written deliberately with minimal AI assistance, to prove I could carry a C++ project end to end. | C++ · SQLite · CMake |
 | **Meeting Intelligence Assistant** · _NTU × EY Technologies · in progress_ | The Knowledge Assistant service: a retrieval-augmented generation pipeline over meeting transcripts — chunking and embedding into a vector store, semantic search, and grounded answers cited back to the source sections they came from. | Python · LLM · vector DB · PostgreSQL · REST |
+| **A\*STAR ARIA Research** | Sim-to-real pipeline for vision-guided robotic grasping on an industrial arm: synthetic datasets generated from CAD inside GPU-parallel simulation, YOLOv8-pose and Mask R-CNN trained with zero hand-labelled images, then deployed for online inference in a closed-loop control system. | Python · PyTorch · Isaac Lab · cuRobo |
+| **orderbook-cpp** | A limit order book and matching engine built from scratch: insert-first matching, price-time priority, and persistent order and trade state. Written deliberately with no AI assistance, to experience doing a C++ project end to end. Planning to improve its complexity while exploring useful C++ concepts. | C++ · SQLite · CMake |
 | **Sift** | LLM-powered review spam and content filter: a hybrid TF-IDF + regex + LLM pipeline classifying reviews as authentic, spam, inappropriate or sensitive, stress-tested on adversarial edge cases. | Python · scikit-learn · pandas · LLMs |
 | **Rubrix AI** · _Hackathon Semi-Finalist_ | Adaptive-learning platform that analyses documents to generate personalised feedback and adaptive exercises; pitched to a Senior Solutions Architect (AWS ASEAN Public Sector). | Node.js · Express · React · REST |
 | **F1 Race Predictor** | Predicts race finishing positions from qualifying data using a Gradient Boosting Regressor trained on the 2015–2024 seasons, with a FastF1 ingestion and caching pipeline serving a React frontend. | Python · scikit-learn · FastF1 · React · Vite |
