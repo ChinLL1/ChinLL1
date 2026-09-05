@@ -23,7 +23,7 @@ struct LiLoong {
     int year = 3;
 
     vector<string> languages = { "C++", "Python", "C", "Java", "SQL", "TypeScript", "R" };
-    vector<string> learning = { "ML systems & inference",
+    vector<string> learning = { "ML systems & inference", "agent systems & guardrails",
         "sim-to-real transfer", "multimodal LLMs", "software architectures" };
     vector<string> doing = { "interview prep :)", "LeetCode", "Kaggle" };
     const bool curious = true;
@@ -70,6 +70,8 @@ Year 3 Computer Science undergraduate at **NTU** specialising in Artificial Inte
 
 ![NVIDIA Isaac](https://img.shields.io/badge/NVIDIA%20Isaac%20Sim-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 ![cuRobo](https://img.shields.io/badge/cuRobo-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![MCP](https://img.shields.io/badge/Model%20Context%20Protocol-000000?style=for-the-badge&logo=anthropic&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white)
@@ -87,13 +89,14 @@ Year 3 Computer Science undergraduate at **NTU** specialising in Artificial Inte
 
 | Project | What it is | Stack |
 |---|---|---|
+| **Agent Guardrails for LLM-Driven Drone Operations** · _Garuda Robotics × NTU veNTUre_ | The agent-safety layer for an [MCP server](https://github.com/NNC21July/TeamOpusVENTURE) that lets drone pilots operate Garuda Plex services through natural language: permission levels, fail-closed tool access, human-in-the-loop approval for high-impact actions, and a structured audit trail of everything the agent proposes, is blocked from, or executes. Takeoff and airspace booking require a two-phase approval bound to a hash of the exact call parameters, closing the time-of-check/time-of-use gap. | Python · Model Context Protocol · pytest |
 | **A\*STAR ARIA Research** | Sim-to-real pipeline for vision-guided robotic grasping on an industrial arm: synthetic datasets generated from CAD inside GPU-parallel simulation, YOLOv8-pose and Mask R-CNN trained with zero hand-labelled images, then deployed for online inference in a closed-loop control system. | Python · PyTorch · Isaac Lab · cuRobo |
-| **DonateSG** | Donation-matching platform built as a team software engineering project, taken from requirements through to a deployed full-stack application. | TypeScript · React · Node.js |
-| **Rubrix AI** · _Hackathon Semi-Finalist_ | Adaptive-learning platform that analyses documents to generate personalised feedback and adaptive exercises; pitched to a Senior Solutions Architect (AWS ASEAN Public Sector). | Node.js · Express · React · REST |
-| **Kaggle Competition Portfolio** | End-to-end competition pipelines covering feature engineering, model selection and ensembling — gradient-boosted trees through to a GPU-trained PyTorch MLP and a stacked ensemble. | Python · PyTorch · XGBoost · LightGBM · CatBoost |
-| **F1 Race Predictor** | Predicts race finishing positions from qualifying data using a Gradient Boosting Regressor trained on the 2015–2024 seasons, with a FastF1 ingestion and caching pipeline serving a React frontend. | Python · scikit-learn · FastF1 · React · Vite |
 | **orderbook-cpp** | A limit order book and matching engine built from scratch: insert-first matching, price-time priority, and persistent order and trade state. Written deliberately with minimal AI assistance, to prove I could carry a C++ project end to end. | C++ · SQLite · CMake |
+| **Meeting Intelligence Assistant** · _NTU × EY Technologies · in progress_ | The Knowledge Assistant service: a retrieval-augmented generation pipeline over meeting transcripts — chunking and embedding into a vector store, semantic search, and grounded answers cited back to the source sections they came from. | Python · LLM · vector DB · PostgreSQL · REST |
 | **Sift** | LLM-powered review spam and content filter: a hybrid TF-IDF + regex + LLM pipeline classifying reviews as authentic, spam, inappropriate or sensitive, stress-tested on adversarial edge cases. | Python · scikit-learn · pandas · LLMs |
+| **Rubrix AI** · _Hackathon Semi-Finalist_ | Adaptive-learning platform that analyses documents to generate personalised feedback and adaptive exercises; pitched to a Senior Solutions Architect (AWS ASEAN Public Sector). | Node.js · Express · React · REST |
+| **F1 Race Predictor** | Predicts race finishing positions from qualifying data using a Gradient Boosting Regressor trained on the 2015–2024 seasons, with a FastF1 ingestion and caching pipeline serving a React frontend. | Python · scikit-learn · FastF1 · React · Vite |
+| **DonateSG** | Donation-matching platform built as a team software engineering project, taken from requirements through to a deployed full-stack application. | TypeScript · React · Node.js |
 
 <br/>
 
