@@ -24,14 +24,14 @@ struct LiLoong {
 
     vector<string> languages = { "C++", "Python", "C", "Java", "SQL", "TypeScript", "R" };
     vector<string> learning = { "ML Systems", "Software architecture", "C++ optimisation techniques" };
-    vector<string> doing = { "interview prep :)", "LeetCode", "bit of CodeForces" };
+    vector<string> doing = { "course projects", "finals prep", "bit of CodeForces" };
     const bool curious = true;
 
-    string status() { return "open to internships & collaborations"; }
+    string status() { return "open to 2027 summer internships"; }
 };
 ```
 
-Year 3 Computer Science undergraduate at **NTU** specialising in Artificial Intelligence, currently exploring AI ML concepts by taking on projects to close knowledge gaps.
+Year 3 Computer Science undergraduate at **NTU** specialising in Artificial Intelligence, currently exploring AI ML concepts by taking on projects to close knowledge gaps. Most recently interned at A*STAR as an ML & Robotics Research Intern, and will be interning at AMD as an AI Engineer Intern from Jan - May 2027!
 
 <br/>
 
